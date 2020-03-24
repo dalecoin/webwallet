@@ -30,8 +30,8 @@
 	//1jLVpwtNMfXWaHY4eiLDmGuBxokYLgv1X
 
 	/* other vars */
-	coinjs.developer = 'bSMzMgbBQSmEMw8y3D4QHbVb5T8YF2X4nx'; // Dalecoin (DALC)
-	coinjs.developer = 'bZXmqJqPJ9fyLyCPKAYEaKJqGwBA6jaQHR'; // Dalecoin developer fund (DALC)
+	coinjs.developer = 'DkVq9DRUxJzfRSETooeFbxW7fW5oEpu9nN'; // Dalecoin (DALC)
+	coinjs.developer = 'DkVq9DRUxJzfRSETooeFbxW7fW5oEpu9nN'; // Dalecoin developer fund (DALC)
 
 	/* bit(coinb.in) api vars */
 	//coinjs.host = ('https:'==document.location.protocol?'https://':'http://')+'wallet.dalecoin.org/api.php';
@@ -451,6 +451,7 @@
 				$.ajax ({
 					type: "GET",
 					//url: "https://chainz.cryptoid.info/bay/api.dws?q=getbalance",
+					//url: "http://195.181.242.206:9998/api?method=blockchain.address.get_balance",
 					url: "http://195.181.242.206:9998/api?method=blockchain.address.get_balance",
 					data: {
 						"params": address,
